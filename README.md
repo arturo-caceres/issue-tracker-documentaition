@@ -40,3 +40,10 @@ The purpose of this application is to provide a software platform for the securi
 # Application Architecture Diagram
 
 ![alt text](images/app-arch-diagram.png)
+
+
+
+# R3 - Application Architecture Diagram
+# R4 - User Stories
+# R5 - Wireframes for multiple standard screen sizes, created using industry standard software
+# R6 - Screenshots of your Trello board throughout the duration of the project
