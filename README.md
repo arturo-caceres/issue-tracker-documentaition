@@ -39,38 +39,33 @@ The purpose of this application is to provide a software platform for the securi
   - Chart for ongoing and resolved issues
 
 ## Target audience
+The target audience of this application is the collective group of employees and managers in  the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted. 
 
 ## Tech stack
 
 - Languages
-
   - **JavaScript** - JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.
   - **Ruby** - Ruby is an interpreted, high-level, general-purpose programming language.
   - **HTML** - HTML is the standard markup language for Web pages.
   - **CSS** - CSS is the language used to style an HTML document.
 
 - Frameworks
-
   - **Ruby on Rails** - Ruby on Rails is a server-side web application framework written in Ruby.
   - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
 
 - Database
-
   - **PostgreSQL** - Relational database management system emphasizing extensibility and SQL compliance.
 
 - Testing Libraries
-
   - **rspec-rails** - rspec-rails is a testing framework for Rails.
   - **Jest** - JavaScript testing framework.
 
 - Cloud Services
-
   - **Heroku** - Heroku is a platform as a service that enables developers to operate applications in the cloud.
   - **Netlify** - Hosting and serverless backend services for web applications and static websites.
   - **AWS S3** - Service that provides object storage through a web service interface.
 
 - Gems and Node Packages
-
   - Gems
     - **jwt** - Ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
     - **bullet** - Detects the number of queries the application makes.
