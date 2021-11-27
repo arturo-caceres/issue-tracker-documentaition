@@ -41,25 +41,6 @@ The application has an admin feature where the user who is given admin status ha
 Users in the program can have different roles assigned to them by the admin users. 
 
 
-- ### Employee
-  - Sing up and Create an account
-  - Edit Profile
-  - Dashboard for published issues
-  - Create ticket for issues
-  - Choose ticket to be private or public
-  - Different status for issues. New, On progress and Resolved.
-  - Edit status of issue
-  - Add other employee to issues
-  - Add message for individual issue
-  - Reply to message for individual issue
-  - Login and Logout
-- ### Admin
-  - Dashboard of all issues
-  - Edit and delete issues
-  - View number of issues. New/On progress/Rsolved
-  - Edit and delete messages
-  - Chart for ongoing and resolved issues
-
 ## Target audience
 The target audience of this application is the collective group of employees and managers in  the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted. 
 
