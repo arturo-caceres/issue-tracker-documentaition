@@ -19,24 +19,27 @@ The purpose of this application is to provide a software platform for the securi
 
 ## Functionality / Features
 
-- ### Employee
-  - Sing up and Create an account
-  - Edit Profile
-  - Dashboard for published issues
-  - Create ticket for issues
-  - Choose ticket to be private or public
-  - Different status for issues. New, On progress and Resolved.
-  - Edit status of issue
-  - Add other employee to issues
-  - Add message for individual issue
-  - Reply to message for individual issue
-  - Login and Logout
-- ### Admin
-  - Dashboard of all issues
-  - Edit and delete issues
-  - View number of issues. New/On progress/Rsolved
-  - Edit and delete messages
-  - Chart for ongoing and resolved issues
+### Authentication
+The application has an authentication system where users need to sign up and sign in to the program to perform tasks and contribute to issues. This functionality provides features to handle actions that require for users to be identified when creating issues, contributing to issues, making comments and reviews, creating and editing personal accounts.
+
+### Authorization
+Authorization system allows protect the management of issues and handling access to personal profiles. The authority to manipulate issues will only belong to users which the issue was posted by, or the administrator of the application. The authority to update details on user's profiles also belong to either the user itself or the administrator.
+
+### Issue Feature
+Users are able to create issues after being authenticated to use the application. Users can be added and removed from the issue tickets regarding the needs. Issues have statuses such as resolved and ongoing, private and public. Issues have a priority preference that determines which issue needs to be attented in what urgency.
+
+### Communication
+The application has a messaging system in the issue tickets where users can communicate with each other or leave comments about any particular subject.
+
+### Visual Data Display
+The application visualizes statistics that are an outcome of the issue management. The program visualizes statuses of issues which are resolved, ongoing or at no progress. It visualizes the amount of issues posted by frequency. It also uses visual representation of issues according to priority.
+
+### Administrator
+The application has an admin feature where the user who is given admin status has the authority and privileges to view and modify everything that is going on throughout the application.
+
+### Roll Managament 
+Users in the program can have different roles assigned to them by the admin users. 
+
 
 ## Target audience
 The target audience of this application is the collective group of employees and managers in  the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted. 
