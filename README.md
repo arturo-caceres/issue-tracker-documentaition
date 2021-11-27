@@ -69,13 +69,41 @@ The purpose of this application is to provide a software platform for the securi
 
 ---
 
-# Application Architecture Diagram
-
-![alt text](images/app-arch-diagram.png)
-
-
-
 # R3 - Application Architecture Diagram
+
+![alt text](images/aad.png)
+
+<hr/>
+
 # R4 - User Stories
+
+### 1. Role: Employee
+
+- As an employee, I want to be able to create an account with my personal details.
+- As an employee, I want to be able to login and logout safely.
+- As an employee, I want to be able to update my personal details.
+- As an employee, I want to be able to delete my profile.
+- As an employee, I want to publish an issue.
+- As an employee, I want to be able to participate in resolving other issues.
+- As an employee, I want to be able to add other participants to my issue ticket.
+- As an employee, I want to be able to see all comments posted by other employees.
+- As an employee, I want to be able to reply to comments posted by other employees.
+- As an employee, I want to be able to archive/resolve my issues.
+- As an employee, I want to be able to set the status of my issue to either public or private.
+- As an employee, I want to be able to filter through the issues.
+- As an employee, I want to be able to prioritise my issue.
+
+### 2. Role: Admin
+
+- As an admin, I want to be able to have an admin role.
+- As an admin, I want to be able to see the new, in-progress and resolved issues.
+- As an admin, I want to be able to see the charts for the issues.
+- As an admin, I want to be able to perform CRUD on all the issues and comments.
+- As an admin, I want to be able to have to access to private issues .
+- As an admin, I want to see how many employees published an issue.
+
+<hr/>
+
 # R5 - Wireframes for multiple standard screen sizes, created using industry standard software
+
 # R6 - Screenshots of your Trello board throughout the duration of the project
