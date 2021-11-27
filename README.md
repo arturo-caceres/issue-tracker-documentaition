@@ -20,6 +20,7 @@ The purpose of this application is to provide a software platform for the securi
 ## Functionality / Features
 
 ## Target audience
+The target audience of this application is the collective group of employees and managers in  the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted. 
 
 ## Tech stack
 - Languages
@@ -50,7 +51,7 @@ The purpose of this application is to provide a software platform for the securi
         - **bullet** - Detects the number of queries the application makes. 
         - **CanCanCan** - Authorization solution for Rails.
     - Node Packeges
-        - **React Router** - Routing library for the React.
+        - **React Router** - Routing library for React.
         - **Axios** - Promise based HTTP client for the browser and node.js
 
 - Tools
