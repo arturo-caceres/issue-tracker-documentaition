@@ -17,17 +17,49 @@ Star security is a security company that offers various services to clients. The
 
 The purpose of this application is to provide a software platform for the security company to manage all their issues effectively. This application aims to provide issue tracking of operations to be managed in a way that is convinient and time efficient.
 
-## Functionality/Features
-
-## Functionality / features
+## Functionality / Features
 
 ## Target audience
 
 ## Tech stack
+- Languages
+    - **JavaScript** - JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.
+    - **Ruby** - Ruby is an interpreted, high-level, general-purpose programming language.
+    - **HTML** - HTML is the standard markup language for Web pages.
+    - **CSS** - CSS is the language used to style an HTML document.
 
----
+- Frameworks
+    - **Ruby on Rails** - Ruby on Rails is a server-side web application framework written in Ruby.
+    - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
 
-# Data Flow Digram:
+- Database
+    - **PostgreSQL** - Relational database management system emphasizing extensibility and SQL compliance.
+
+- Testing Libraries
+    - **rspec-rails** - rspec-rails is a testing framework for Rails.
+    - **Jest** - JavaScript testing framework.
+
+- Cloud Services
+    - **Heroku** - Heroku is a platform as a service that enables developers to operate applications in the cloud.
+    - **Netlify** - Hosting and serverless backend services for web applications and static websites.
+    - **AWS S3** - Service that provides object storage through a web service interface.
+
+- Gems and Node Packages
+    - Gems
+        - **jwt** - Ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
+        - **bullet** - Detects the number of queries the application makes. 
+        - **CanCanCan** - Authorization solution for Rails.
+    - Node Packeges
+        - **React Router** - Routing library for the React.
+        - **Axios** - Promise based HTTP client for the browser and node.js
+
+- Tools
+    - **Trello** - Trello is a web-based, Kanban-style, list-making application.
+    - **Figma** - Web-based, vector graphics editor and prototyping tool.
+    - **Git** - Version control system.
+    - **GitHub** - Internet hosting for software development and version control using Git.
+
+
 
 ---
 
