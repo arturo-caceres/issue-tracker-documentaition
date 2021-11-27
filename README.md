@@ -11,6 +11,7 @@ Star security is a security company that offers various services to clients. The
 - Security officer does not show up to worksite
 - Security officer falls asleep on the job
 - Client without notification needs more security officers
+
 The purpose of this application is to provide a software platform for the security company to manage all their issues effectively. This application aims to provide issue tracking of operations to be managed in a way that is convinient and time efficient. 
 
 
