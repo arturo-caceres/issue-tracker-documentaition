@@ -128,6 +128,22 @@ The target audience of this application is the collective group of employees and
 - As an employee, I want to be able to filter through the issues.
 - As an employee, I want to be able to prioritise my issue.
 
+==============================================================
+
+- As an employee, I want to be able to create an account with my personal details.
+- As an employee, I want to be able to login to my account when I want need to use the apllication, and logout safely after I am done using it.
+- As an employee, I want to be able to update my personal details, after I have successfully signed into the application.
+- As an employee, I want to be able to publish an issue.
+- As an employee, I want to be able to view the issues that are made available to me. 
+- As an employee, I want to be able to participate in resolving issues that are made available to me.
+- As an employee, I want to be able to add other participants to my issue ticket.
+- As an employee, I want to be able to see the comments posted by other employees on issue tickets.
+- As an employee, I want to be able to reply to comments posted by other employees on issue tickets.
+- As an employee, I want to be able to update the status of my issue to resolved.
+- As an employee, I want to be able to set the status of my issue to either public or private.
+- As an employee, I want to be able to filter issues by either the time they were posted, or by entering search paramaters into the search bar.
+- As an employee, I want to be able to set the priority status of my issue.
+
 ### 2. Role: Admin
 
 - As an admin, I want to be able to have an admin role.
@@ -135,6 +151,16 @@ The target audience of this application is the collective group of employees and
 - As an admin, I want to be able to see the charts for the issues.
 - As an admin, I want to be able to perform CRUD on all the issues and comments.
 - As an admin, I want to be able to have to access to private issues .
+- As an admin, I want to see how many employees published an issue.
+
+==============================================================
+
+- As an admin, I want to be able to have an admin role.
+- As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress or new.
+- As an admin, I want to be able to access visual charts that represent statistics of issues.
+- As an admin, I want to have the ability and privilage of updating, editing and deleting all issues posted by employees.
+- As an admin, I want to have the ability and privilage of updating, editing and deleting all comments made on issues by employees.
+- As an admin, I want to be able to have to access to issues with private status.
 - As an admin, I want to see how many employees published an issue.
 
 <hr/>
