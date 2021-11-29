@@ -20,55 +20,68 @@ The purpose of this application is to provide a software platform for the securi
 ## Functionality / Features
 
 ### Authentication
+
 The application has an authentication system where users need to sign up and sign in to the program to perform tasks and contribute to issues. This functionality provides features to handle actions that require for users to be identified when creating issues, contributing to issues, making comments and reviews, creating and editing personal accounts.
 
 ### Authorization
+
 Authorization system allows protect the management of issues and handling access to personal profiles. The authority to manipulate issues will only belong to users which the issue was posted by, or the administrator of the application. The authority to update details on user's profiles also belong to either the user itself or the administrator.
 
 ### Issue Feature
+
 Users are able to create issues after being authenticated to use the application. Users can be added and removed from the issue tickets regarding the needs. Issues have statuses such as resolved and ongoing, private and public. Issues have a priority preference that determines which issue needs to be attented in what urgency.
 
 ### Communication
+
 The application has a messaging system in the issue tickets where users can communicate with each other or leave comments about any particular subject.
 
 ### Visual Data Display
+
 The application visualizes statistics that are an outcome of the issue management. The program visualizes statuses of issues which are resolved, ongoing or at no progress. It visualizes the amount of issues posted by frequency. It also uses visual representation of issues according to priority.
 
 ### Administrator
+
 The application has an admin feature where the user who is given admin status has the authority and privileges to view and modify everything that is going on throughout the application.
 
-### Roll Managament 
-Users in the program can have different roles assigned to them by the admin users. 
+### Roll Managament
 
+Users in the program can have different roles assigned to them by the admin users.
 
 ## Target audience
-The target audience of this application is the collective group of employees and managers in  the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted. 
+
+The target audience of this application is the collective group of employees and managers in the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted.
 
 ## Tech stack
 
 - Languages
+
   - **JavaScript** - JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.
   - **Ruby** - Ruby is an interpreted, high-level, general-purpose programming language.
   - **HTML** - HTML is the standard markup language for Web pages.
   - **CSS** - CSS is the language used to style an HTML document.
 
 - Frameworks
+
   - **Ruby on Rails** - Ruby on Rails is a server-side web application framework written in Ruby.
   - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
 
 - Database
+
   - **PostgreSQL** - Relational database management system emphasizing extensibility and SQL compliance.
 
 - Testing Libraries
+
   - **rspec-rails** - rspec-rails is a testing framework for Rails.
   - **Jest** - JavaScript testing framework.
 
 - Cloud Services
+
   - **Heroku** - Heroku is a platform as a service that enables developers to operate applications in the cloud.
   - **Netlify** - Hosting and serverless backend services for web applications and static websites.
   - **AWS S3** - Service that provides object storage through a web service interface.
 
 - Gems and Node Packages
+
   - Gems
     - **jwt** - Ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
     - **bullet** - Detects the number of queries the application makes.
@@ -93,7 +106,7 @@ The target audience of this application is the collective group of employees and
 
 # R3 - Application Architecture Diagram
 
-![alt text](images/aad.png)
+![alt text](images/AAD-new.png)
 
 <hr/>
 
