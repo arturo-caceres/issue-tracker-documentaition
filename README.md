@@ -115,26 +115,10 @@ The target audience of this application is the collective group of employees and
 ### 1. Role: Employee
 
 - As an employee, I want to be able to create an account with my personal details.
-- As an employee, I want to be able to login and logout safely.
-- As an employee, I want to be able to update my personal details.
-- As an employee, I want to be able to delete my profile.
-- As an employee, I want to publish an issue.
-- As an employee, I want to be able to participate in resolving other issues.
-- As an employee, I want to be able to add other participants to my issue ticket.
-- As an employee, I want to be able to see all comments posted by other employees.
-- As an employee, I want to be able to reply to comments posted by other employees.
-- As an employee, I want to be able to archive/resolve my issues.
-- As an employee, I want to be able to set the status of my issue to either public or private.
-- As an employee, I want to be able to filter through the issues.
-- As an employee, I want to be able to prioritise my issue.
-
-==============================================================
-
-- As an employee, I want to be able to create an account with my personal details.
 - As an employee, I want to be able to login to my account when I want need to use the apllication, and logout safely after I am done using it.
 - As an employee, I want to be able to update my personal details, after I have successfully signed into the application.
 - As an employee, I want to be able to publish an issue.
-- As an employee, I want to be able to view the issues that are made available to me. 
+- As an employee, I want to be able to view the issues that are made available to me.
 - As an employee, I want to be able to participate in resolving issues that are made available to me.
 - As an employee, I want to be able to add other participants to my issue ticket.
 - As an employee, I want to be able to see the comments posted by other employees on issue tickets.
@@ -145,15 +129,6 @@ The target audience of this application is the collective group of employees and
 - As an employee, I want to be able to set the priority status of my issue.
 
 ### 2. Role: Admin
-
-- As an admin, I want to be able to have an admin role.
-- As an admin, I want to be able to see the new, in-progress and resolved issues.
-- As an admin, I want to be able to see the charts for the issues.
-- As an admin, I want to be able to perform CRUD on all the issues and comments.
-- As an admin, I want to be able to have to access to private issues .
-- As an admin, I want to see how many employees published an issue.
-
-==============================================================
 
 - As an admin, I want to be able to have an admin role.
 - As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress or new.
