@@ -53,42 +53,33 @@ The target audience of this application is the collective group of employees and
 
 ## Tech stack
 
-- Languages
+- Backend
+  - **Node** - JavaScript runtime built on Chrome's V8 JavaScript engine.
+  - **Express** - Express is a back end web application framework for Node.js
+  - **mongoose** - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
 
+- Frontend
+  - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
   - **JavaScript** - JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.
-  - **Ruby** - Ruby is an interpreted, high-level, general-purpose programming language.
   - **HTML** - HTML is the standard markup language for Web pages.
   - **CSS** - CSS is the language used to style an HTML document.
-
-- Frameworks
-
-  - **Ruby on Rails** - Ruby on Rails is a server-side web application framework written in Ruby.
-  - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
+  - **material ui** - MUI provides a simple, customizable, and accessible library of React components.
 
 - Database
-
-  - **PostgreSQL** - Relational database management system emphasizing extensibility and SQL compliance.
+  - **MongoDB** - MongoDB is a source-available cross-platform document-oriented database program.
 
 - Testing Libraries
-
-  - **rspec-rails** - rspec-rails is a testing framework for Rails.
   - **Jest** - JavaScript testing framework.
 
-- Cloud Services
-
+- External Services
+  - **Firebase Authentication** - Firebase Authentication provides authentication for backend services.
   - **Heroku** - Heroku is a platform as a service that enables developers to operate applications in the cloud.
   - **Netlify** - Hosting and serverless backend services for web applications and static websites.
   - **AWS S3** - Service that provides object storage through a web service interface.
 
-- Gems and Node Packages
-
-  - Gems
-    - **jwt** - Ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
-    - **bullet** - Detects the number of queries the application makes.
-    - **CanCanCan** - Authorization solution for Rails.
-  - Node Packeges
-    - **React Router** - Routing library for the React.
-    - **Axios** - Promise based HTTP client for the browser and node.js
+- Node Packages
+  - **React Router** - Routing library for the React.
+  - **Axios** - Promise based HTTP client for the browser and node.js
 
 - Tools
   - **Trello** - Trello is a web-based, Kanban-style, list-making application.
