@@ -151,3 +151,27 @@ The target audience of this application is the collective group of employees and
 # R5 - Wireframes for multiple standard screen sizes, created using industry standard software
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
+
+### Day #1
+
+![alt text](images/day1.png)
+
+### Day #2
+
+![alt text](images/day2.png)
+
+### Day #3
+
+![alt text](images/day3.png)
+
+### Day #4
+
+![alt text](images/day4.png)
+
+### Day #5
+
+![alt text](images/day5.png)
+
+### Day #6
+
+![alt text](images/day6.png)
