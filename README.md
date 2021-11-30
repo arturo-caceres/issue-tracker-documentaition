@@ -106,7 +106,7 @@ The target audience of this application is the collective group of employees and
 
 # R3 - Application Architecture Diagram
 
-![alt text](images/AAD-new.png)
+![alt text](images/aad2.png)
 
 <hr/>
 
