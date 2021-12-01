@@ -109,41 +109,47 @@ The target audience of this application is the collective group of employees and
 
 # R4 - User Stories
 
-### MVP for Employee
-
-- As an employee, I want to be able to login to my account when I want need to use the apllication, and logout safely after I am done using it.
-- As an employee, I want to be able to update my personal details, after I have successfully signed into the application.
-- As an employee, I want to be able to publish an issue when I come across a problem, so that the managers could be notified and the issue could be addressed.
-- As an employee, I want to be able to set the priority status of my issue, because there might be some urgent issues that need to be prioritised.
-- As an employee, I want to be able to set the status of my issue to either public or private, because I might not want to share the details of some problems with every employee.
-- As an employee, I want to be able to edit my issue, as I could have made a typo or would like to add missing information to my issue.
-
-### Possible Extension for Employee
-
-- As an employee, I want to be able to add other participants to my issue ticket.
-- As an employee, I want to be able to participate in resolving issues that are made available to me.
-- As an employee, I want to be able to see the comments posted by other employees on issue tickets, as I might have a gone through a similar situation, and might be able to help resolving the issue.
-- As an employee, I want to be able to reply to comments posted by other employees on issue tickets, so I can contribute in solving the problem.
-- As an employee, I want to be able to view the issues that are made available to me.
-- As an employee, I want to receive a notification when I am tagged on an issue ticket, so I can see it or reply if needed.
-
-### MVP for Admin
-
-- As an admin, I want to be able to have an admin role, so that I can manage Employee information.
-- As an admin, I want to be able to create an account for the employee, so they can have access to the application with their account details.
-- As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress or new.
-- As an admin, I want to be able to filter issues by either the date, name, priority, type and status they were posted to find relative information faster.
-- As an admin, I want to have the ability of updating and deleting all issues posted by employees.
-- As an admin, I want to be able to have access to issues with private status, as employee may share sensible information.
-- As an admin, I want to be able to see how many employees published an issue, so that I can see new, pending and resolved issues.
-- As an admin, I want to be able to update the status from new to either pending or resolved.
-
-### Possible Extension for Admin
-
-- As an admin, I want to be able to access visual charts that represent statistics of issues.
-- As an admin, I want to have the ability of updating and deleting all comments made on issues by employees.
+### User Personas
 
 ![alt text](images/wireframe-imgs/personas.png)
+
+### MVP for Employee
+
+|   Role   | Story |
+| :------: | :---- |
+| Employee |
+
+- As an employee, I want to be able to login to my account when I want need to use the apllication, and logout safely after I am done using it. <br>
+- As an employee, I want to be able to update my personal details, after I have successfully signed into the application.<br>
+- As an employee, I want to be able to publish an issue when I come across a problem, so that the managers could be notified and the issue could be addressed.<br>
+- As an employee, I want to be able to set the priority status of my issue, because there might be some urgent issues that need to be prioritised.<br>
+- As an employee, I want to be able to set the status of my issue to either public or private, because I might not want to share the details of some problems with every employee.<br>
+- As an employee, I want to be able to edit my issue, as I could have made a typo or would like to add missing information to my issue.<br> |
+
+| Possible Extension for Employee |
+
+- As an employee, I want to be able to add other participants to my issue ticket. <br>
+- As an employee, I want to be able to participate in resolving issues that are made available to me. <br>
+- As an employee, I want to be able to see the comments posted by other employees on issue tickets, as I might have a gone through a similar situation, and might be able to help resolving the issue. <br>
+- As an employee, I want to be able to reply to comments posted by other employees on issue tickets, so I can contribute in solving the problem. <br>
+- As an employee, I want to be able to view the issues that are made available to me.
+- As an employee, I want to receive a notification when I am tagged on an issue ticket, so I can see it or reply if needed. <br> |
+
+| Admin |
+
+- As an admin, I want to be able to have an admin role, so that I can manage Employee information. <br>
+- As an admin, I want to be able to create an account for the employee, so they can have access to the application with their account details. <br>
+- As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress or new. <br>
+- As an admin, I want to be able to filter issues by either the date, name, priority, type and status they were posted to find relative information faster. <br>
+- As an admin, I want to have the ability of updating and deleting all issues posted by employees. <br>
+- As an admin, I want to be able to have access to issues with private status, as employee may share sensible information. <br>
+- As an admin, I want to be able to see how many employees published an issue, so that I can see new, pending and resolved issues. <br>
+- As an admin, I want to be able to update the status from new to either pending or resolved. <br> |
+
+| Possible Extension for Admin |
+
+- As an admin, I want to be able to access visual charts that represent statistics of issues. <br>
+- As an admin, I want to have the ability of updating and deleting all comments made on issues by employees. <br> |
 
 <hr/>
 
