@@ -1,4 +1,4 @@
-# Lock Security Issue Management Platform
+# Star Security
 
 ---
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Lock security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
+Star security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
 
 - Security officer calling in sick an hour before their shift
 - Security officer has an emergency and has to leave the jobsite ASAP
@@ -49,16 +49,18 @@ Users in the program can have different roles assigned to them by the admin user
 
 ## Target audience
 
-The target audience of this application is the collective group of employees and managers in the Lock Security company. Personnel should be able to effectively use the application and contribute to issues posted.
+The target audience of this application is the collective group of employees and managers in the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted.
 
 ## Tech stack
 
 - Backend
+
   - **Node** - JavaScript runtime built on Chrome's V8 JavaScript engine.
   - **Express** - Express is a back end web application framework for Node.js
   - **mongoose** - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
 
 - Frontend
+
   - **React** - React is a front-end JavaScript library for building user interfaces based on UI components.
   - **JavaScript** - JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification.
   - **HTML** - HTML is the standard markup language for Web pages.
@@ -66,18 +68,22 @@ The target audience of this application is the collective group of employees and
   - **material ui** - MUI provides a simple, customizable, and accessible library of React components.
 
 - Database
+
   - **MongoDB** - MongoDB is a source-available cross-platform document-oriented database program.
 
 - Testing Libraries
+
   - **Jest** - JavaScript testing framework.
 
 - External Services
+
   - **Firebase Authentication** - Firebase Authentication provides authentication for backend services.
   - **Heroku** - Heroku is a platform as a service that enables developers to operate applications in the cloud.
   - **Netlify** - Hosting and serverless backend services for web applications and static websites.
   - **AWS S3** - Service that provides object storage through a web service interface.
 
 - Node Packages
+
   - **React Router** - Routing library for the React.
   - **Axios** - Promise based HTTP client for the browser and node.js
 
@@ -91,7 +97,7 @@ The target audience of this application is the collective group of employees and
 
 # R2 - Dataflow Diagram
 
-![alt text](images/Dfd-updated.png)
+![alt text](images/DFD2.png)
 
 ---
 
@@ -140,6 +146,9 @@ The target audience of this application is the collective group of employees and
 <hr/>
 
 # R5 - Wireframes for multiple standard screen sizes, created using industry standard software
+
+![alt text](images/admin-navigation-view.png)
+![alt text](images/employee-navigation-view.png)
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
