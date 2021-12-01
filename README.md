@@ -178,6 +178,8 @@ The target audience of this application is the collective group of employees and
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
+This is a link to the project management tool [Trello](https://trello.com/b/OiNyPtJn/issue-tracker)
+
 ### Day #1
 
 ![alt text](images/trello-imgs/day1.png)
@@ -190,7 +192,7 @@ The target audience of this application is the collective group of employees and
 
 ![alt text](images/trello-imgs/day3.png)
 
-### Day #4trello-imgs/
+### Day #4
 
 ![alt text](images/trello-imgs/day4.png)
 
