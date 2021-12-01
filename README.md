@@ -143,6 +143,8 @@ The target audience of this application is the collective group of employees and
 - As an admin, I want to be able to access visual charts that represent statistics of issues.
 - As an admin, I want to have the ability of updating and deleting all comments made on issues by employees.
 
+![alt text](images/wireframe-imgs/personas.png)
+
 <hr/>
 
 # R5 - Wireframes for multiple standard screen sizes, created using industry standard software
