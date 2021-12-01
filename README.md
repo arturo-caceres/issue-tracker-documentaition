@@ -97,13 +97,13 @@ The target audience of this application is the collective group of employees and
 
 # R2 - Dataflow Diagram
 
-![alt text](images/DFD2.png)
+![alt text](images/DFD.png)
 
 ---
 
 # R3 - Application Architecture Diagram
 
-![alt text](images/aad2.png)
+![alt text](images/AAD.png)
 
 <hr/>
 
