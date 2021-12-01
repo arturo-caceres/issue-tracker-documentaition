@@ -147,31 +147,51 @@ The target audience of this application is the collective group of employees and
 
 # R5 - Wireframes for multiple standard screen sizes, created using industry standard software
 
-![alt text](images/admin-navigation-view.png)
-![alt text](images/employee-navigation-view.png)
+## Navigation of application
+
+![alt text](images/wireframe-imgs/admin-navigation-view.png)
+![alt text](images/wireframe-imgs/employee-navigation-view.png)
+
+### Admin Wireframe
+
+![alt text](images/wireframe-imgs/loginpage.png)
+![alt text](images/wireframe-imgs/dashboardpage.png)
+![alt text](images/wireframe-imgs/ticketpage.png)
+![alt text](images/wireframe-imgs/SingleTicket.png)
+![alt text](images/wireframe-imgs/CreateNewTicket.png)
+![alt text](images/wireframe-imgs/listofemployee.png)
+![alt text](images/wireframe-imgs/Createaccount.png)
+![alt text](images/wireframe-imgs/graphpage.png)
+
+### Employee wireframes
+
+![alt text](images/wireframe-imgs/employeedashboard.png)
+![alt text](images/wireframe-imgs/employeenewticket.png)
+![alt text](images/wireframe-imgs/employeeviewticket.png)
+![alt text](images/wireframe-imgs/employeeeditprofile.png)
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
 ### Day #1
 
-![alt text](images/day1.png)
+![alt text](images/trello-imgs/day1.png)
 
 ### Day #2
 
-![alt text](images/day2.png)
+![alt text](images/trello-imgs/day2.png)
 
 ### Day #3
 
-![alt text](images/day3.png)
+![alt text](images/trello-imgs/day3.png)
 
-### Day #4
+### Day #4trello-imgs/
 
-![alt text](images/day4.png)
+![alt text](images/trello-imgs/day4.png)
 
 ### Day #5
 
-![alt text](images/day5.png)
+![alt text](images/trello-imgs/day5.png)
 
 ### Day #6
 
-![alt text](images/day6.png)
+![alt text](images/trello-imgs/day6.png)
