@@ -1,4 +1,4 @@
-# Star Security
+# Lock Security Issue Management Platform
 
 ---
 
@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Star security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
+Lock security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
 
 - Security officer calling in sick an hour before their shift
 - Security officer has an emergency and has to leave the jobsite ASAP
@@ -49,7 +49,7 @@ Users in the program can have different roles assigned to them by the admin user
 
 ## Target audience
 
-The target audience of this application is the collective group of employees and managers in the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted.
+The target audience of this application is the collective group of employees and managers in the Lock Security company. Personnel should be able to effectively use the application and contribute to issues posted.
 
 ## Tech stack
 
@@ -91,7 +91,7 @@ The target audience of this application is the collective group of employees and
 
 # R2 - Dataflow Diagram
 
-![alt text](images/DFD2.png)
+![alt text](images/Dfd-updated.png)
 
 ---
 
