@@ -1,4 +1,10 @@
-# Star Security
+# Final Assignment T3A2-A
+
+- Ahmet Erturk
+- Arturo Caceres
+- Mohammad Reza Fayazi
+
+# Lock Security
 
 ---
 
@@ -223,3 +229,7 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 ### Day #6
 
 ![alt text](docs/images/trello-imgs/day6.png)
+
+### Day #7
+
+![alt text](docs/images/trello-imgs/day7.png)
