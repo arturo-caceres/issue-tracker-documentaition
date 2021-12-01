@@ -97,13 +97,13 @@ The target audience of this application is the collective group of employees and
 
 # R2 - Dataflow Diagram
 
-![alt text](images/DFD.png)
+![alt text](docs/images/DFD.png)
 
 ---
 
 # R3 - Application Architecture Diagram
 
-![alt text](images/AAD.png)
+![alt text](docs/images/AAD.png)
 
 <hr/>
 
@@ -111,7 +111,7 @@ The target audience of this application is the collective group of employees and
 
 ### User Personas
 
-![alt text](images/wireframe-imgs/personas.png)
+![alt text](docs/images/wireframe-imgs/personas.png)
 
 ### MVP for Employee
 
@@ -155,26 +155,26 @@ The target audience of this application is the collective group of employees and
 
 ## Navigation of application
 
-![alt text](images/wireframe-imgs/admin-navigation-view.png)
-![alt text](images/wireframe-imgs/employee-navigation-view.png)
+![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
+![alt text](docs/images/wireframe-imgs/employee-navigation-view.png)
 
 ### Admin Wireframe
 
-![alt text](images/wireframe-imgs/loginpage.png)
-![alt text](images/wireframe-imgs/dashboardpage.png)
-![alt text](images/wireframe-imgs/ticketpage.png)
-![alt text](images/wireframe-imgs/SingleTicket.png)
-![alt text](images/wireframe-imgs/CreateNewTicket.png)
-![alt text](images/wireframe-imgs/listofemployee.png)
-![alt text](images/wireframe-imgs/Createaccount.png)
-![alt text](images/wireframe-imgs/graphpage.png)
+![alt text](docs/images/wireframe-imgs/loginpage.png)
+![alt text](docs/images/wireframe-imgs/dashboardpage.png)
+![alt text](docs/images/wireframe-imgs/ticketpage.png)
+![alt text](docs/images/wireframe-imgs/SingleTicket.png)
+![alt text](docs/images/wireframe-imgs/CreateNewTicket.png)
+![alt text](docs/images/wireframe-imgs/listofemployee.png)
+![alt text](docs/images/wireframe-imgs/Createaccount.png)
+![alt text](docs/images/wireframe-imgs/graphpage.png)
 
 ### Employee wireframes
 
-![alt text](images/wireframe-imgs/employeedashboard.png)
-![alt text](images/wireframe-imgs/employeenewticket.png)
-![alt text](images/wireframe-imgs/employeeviewticket.png)
-![alt text](images/wireframe-imgs/employeeeditprofile.png)
+![alt text](docs/images/wireframe-imgs/employeedashboard.png)
+![alt text](docs/images/wireframe-imgs/employeenewticket.png)
+![alt text](docs/images/wireframe-imgs/employeeviewticket.png)
+![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
@@ -182,24 +182,24 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ### Day #1
 
-![alt text](images/trello-imgs/day1.png)
+![alt text](docs/images/trello-imgs/day1.png)
 
 ### Day #2
 
-![alt text](images/trello-imgs/day2.png)
+![alt text](docs/images/trello-imgs/day2.png)
 
 ### Day #3
 
-![alt text](images/trello-imgs/day3.png)
+![alt text](docs/images/trello-imgs/day3.png)
 
 ### Day #4
 
-![alt text](images/trello-imgs/day4.png)
+![alt text](docs/images/trello-imgs/day4.png)
 
 ### Day #5
 
-![alt text](images/trello-imgs/day5.png)
+![alt text](docs/images/trello-imgs/day5.png)
 
 ### Day #6
 
-![alt text](images/trello-imgs/day6.png)
+![alt text](docs/images/trello-imgs/day6.png)
