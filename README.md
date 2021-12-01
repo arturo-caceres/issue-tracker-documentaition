@@ -8,18 +8,18 @@
 
 ---
 
-# R1 - Description of website
+# R1 - Description of your website, including:
 
 ## Purpose
 
-Lock security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
+Star security is a security company that offers various services to clients. These services include providing security officer assistance to small and enterprise companies, on-site patrolling in specialized worksites, security monitoring and screening for specific areas such as airports and shopping centres, etc. The company has the obligation to run flawless and smooth operations. As a company, they must ensure and maintain trust and rapport with their clients. To achieve this, they need to have exceptional communication within their operations. However, running a security company with multiple clients and employees is not always a smooth sail. They run into issues on a regular basis concerning both parties of the operation. Some examples to these issues could be;
 
 - Security officer calling in sick an hour before their shift
 - Security officer has an emergency and has to leave the jobsite ASAP
 - Client does not want to work with the security officer
 - Security officer does not show up to worksite
 - Security officer falls asleep on the job
-- Client without notification, needs more security officers
+- Client without notification needs more security officers
 
 The purpose of this application is to provide a software platform for the security company to manage all their issues effectively. This application aims to provide issue tracking of operations to be managed in a way that is convinient and time efficient.
 
@@ -27,11 +27,11 @@ The purpose of this application is to provide a software platform for the securi
 
 ### Authentication
 
-The application has an authentication system where users need to sign in to the program to perform tasks and contribute to issues. This functionality provides features to handle actions, that require users to be identified when creating issues, contributing to issues, making comments and reviews, creating and editing personal accounts.
+The application has an authentication system where users need to sign up and sign in to the program to perform tasks and contribute to issues. This functionality provides features to handle actions that require for users to be identified when creating issues, contributing to issues, making comments and reviews, creating and editing personal accounts.
 
 ### Authorization
 
-Authorization system, allows protect the management of issues and handling access to personal profiles. The authority to manipulate issues will only belong to users which the issue was posted by, or the administrator of the application. The authority to update details on user's profiles also belong to either the user itself or the administrator.
+Authorization system allows protect the management of issues and handling access to personal profiles. The authority to manipulate issues will only belong to users which the issue was posted by, or the administrator of the application. The authority to update details on user's profiles also belong to either the user itself or the administrator.
 
 ### Issue Feature
 
@@ -39,11 +39,11 @@ Users are able to create issues after being authenticated to use the application
 
 ### Communication
 
-The application has a messaging system in the issue tickets where users can communicate with other users. This option will allow users to leave comments about any particular subject.
+The application has a messaging system in the issue tickets where users can communicate with each other or leave comments about any particular subject.
 
 ### Visual Data Display
 
-The application visualizes statistics that are an outcome of the issue management. The program visualizes statuses of issues which are new, pending or resolved. It visualizes the amount of issues posted by frequency and it also uses visual representation of issues according to priority.
+The application visualizes statistics that are an outcome of the issue management. The program visualizes statuses of issues which are resolved, ongoing or at no progress. It visualizes the amount of issues posted by frequency. It also uses visual representation of issues according to priority.
 
 ### Administrator
 
@@ -55,14 +55,14 @@ Users in the program can have different roles assigned to them by the admin user
 
 ## Target audience
 
-The target audience of this application is the collective group of employees and managers in the Lock Security company. Personnel should be able to effectively use the application and contribute to issues posted.
+The target audience of this application is the collective group of employees and managers in the Star Security company. Personnel should be able to effectively use the application and contribute to issues posted.
 
 ## Tech stack
 
 - Backend
 
   - **Node** - JavaScript runtime built on Chrome's V8 JavaScript engine.
-  - **Express** - Express is a backend web application framework for Node.js
+  - **Express** - Express is a back end web application framework for Node.js
   - **mongoose** - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
 
 - Frontend
@@ -80,7 +80,6 @@ The target audience of this application is the collective group of employees and
 - Testing Libraries
 
   - **Jest** - JavaScript testing framework.
-  - **Cypress** - JavaScript testing framework.
 
 - External Services
 
@@ -94,15 +93,11 @@ The target audience of this application is the collective group of employees and
   - **React Router** - Routing library for the React.
   - **Axios** - Promise based HTTP client for the browser and node.js
 
-- Version Control
-
-  - **Git** - Software for tracking changes in any set of files, usually used for coordinating work collaboratively developing source code.
-  - **Github** - Hosting for software development and version control using Git.
-
 - Tools
-
   - **Trello** - Trello is a web-based, Kanban-style, list-making application.
   - **Figma** - Web-based, vector graphics editor and prototyping tool.
+  - **Git** - Version control system.
+  - **GitHub** - Internet hosting for software development and version control using Git.
 
 ---
 
@@ -120,117 +115,45 @@ The target audience of this application is the collective group of employees and
 
 # R4 - User Stories
 
-### **User Personas**
+### User Personas
 
 ![alt text](docs/images/wireframe-imgs/personas.png)
 
 ### MVP for Employee
 
-### **Employee**
+### Employee
 
-<br>
+- As an employee, I want to be able to login to my account when I want need to use the apllication, and logout safely after I am done using it. <br>
+- As an employee, I want to be able to update my personal details, after I have successfully signed into the application.<br>
+- As an employee, I want to be able to publish an issue when I come across a problem, so that the managers could be notified and the issue could be addressed.<br>
+- As an employee, I want to be able to set the priority status of my issue, because there might be some urgent issues that need to be prioritised.<br>
+- As an employee, I want to be able to set the status of my issue to either public or private, because I might not want to share the details of some problems with every employee.<br>
+- As an employee, I want to be able to edit my issue, as I could have made a typo or would like to add missing information to my issue.<br>
 
-- Ronald would like to have a safe authentication system within the application.
-  - As an employee, I want to be able to log in to my account when I need to use the application and log out safely after I am done using it.
-    <br>
-    <br>
-- Ronald would like to have access to his account for updating his details.
-  - As an employee, I want to be able to update my details, after I have successfully signed into the application.
-    <br>
-    <br>
-- Ronald would like to report an issue if there is one while his on duty.
-  - As an employee, I want to be able to publish an issue when I come across a problem so that the managers could be notified and the issue could be addressed.
-    <br>
-    <br>
-- Ronald would like to see a comment from management first on the issue he has published.
-  - As an employee, I would like to be able to check comments which have been added by management so that I can reply to the comments.
-    <br>
-    <br>
-- Ronald would like to prioritize any problem he reports.
-  - As an employee, I want to be able to set the priority status of my issue, because there might be some urgent issues that need to be prioritized.
-    <br>
-    <br>
-- Ronald would like to have an option to set his issue either to public or private. He might have sensitive information which he does not want to share with other employees.
-  - As an employee, I want to be able to set the status of my issue to either public or private, because I might not want to share the details of some problems with every employee.
-    <br>
-    <br>
-- Ronald would like to have an option to modify the issue he reports if there is any typo or misinformation.
-  - As an employee, I want to be able to edit my issue, as I could have made a typo or would like to add missing information to my issue.
-    <br>
-    <br>
+### Possible Extension for Employee
 
-#### Possible Extension for Employee
+- As an employee, I want to be able to add other participants to my issue ticket. <br>
+- As an employee, I want to be able to participate in resolving issues that are made available to me. <br>
+- As an employee, I want to be able to see the comments posted by other employees on issue tickets, as I might have a gone through a similar situation, and might be able to help resolving the issue. <br>
+- As an employee, I want to be able to reply to comments posted by other employees on issue tickets, so I can contribute in solving the problem. <br>
+- As an employee, I want to be able to view the issues that are made available to me.
+- As an employee, I want to receive a notification when I am tagged on an issue ticket, so I can see it or reply if needed. <br>
 
-- Ronald would like to tag other employees (s) to the existing issue, as they might be able to help to solve the problem, or have gone through something similar.
-  - As an employee, I want to be able to add other participants to my issue ticket.
-    <br>
-    <br>
-- Ronald would like to be assigned to other issues that he might be able to help resolve, to the existing problem for other employees
-  - As an employee, I want to be able to participate in resolving issues that are made available to me.
-    <br>
-    <br>
-- Ronald would like to add comments on others employees' issues that he might have a possible solution to.
-  - As an employee, I want to be able to see the comments posted by other employees on issue tickets, as I might have gone through a similar situation, and might be able to help resolve the issue.
-    <br>
-    <br>
-- Ronald would like to have access to the comments so he can share his opinion on the existing problem.
-  - As an employee, I want to be able to reply to comments posted by other employees on issue tickets, so I can contribute to solving the problem.
-    <br>
-    <br>
-- Ronald would like to be able to see other issues if they are visible to him.
-  - As an employee, I want to be able to view the issues that are made available to me.
-    <br>
-    <br>
-- Ronald would like to be notified if he has been assigned to an issue.
-  - As an employee, I want to receive a notification when I am tagged on an issue ticket, so I can see it or reply if needed.
-    <br>
-    <br>
+### Admin
 
-### **Admin**
+- As an admin, I want to be able to have an admin role, so that I can manage Employee information. <br>
+- As an admin, I want to be able to create an account for the employee, so they can have access to the application with their account details. <br>
+- As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress or new. <br>
+- As an admin, I want to be able to filter issues by either the date, name, priority, type and status they were posted to find relative information faster. <br>
+- As an admin, I want to have the ability of updating and deleting all issues posted by employees. <br>
+- As an admin, I want to be able to have access to issues with private status, as employee may share sensible information. <br>
+- As an admin, I want to be able to see how many employees published an issue, so that I can see new, pending and resolved issues. <br>
+- As an admin, I want to be able to update the status from new to either pending or resolved. <br>
 
-- Leslie would like to have full control over the application as an Admin, as she is a manager at Lock Security.
-  - As an admin, I want to be able to have an admin role, so that I can manage Employee information.
-    <br>
-    <br>
-- Leslie would like to create an account for an employee and give them their login details so that they can sign in to the application. As a manager, she is responsible for creating an account for employees' use on the platform.
-  - As an admin, I want to be able to create an account for the employee, so they can have access to the application with their account details.
-    <br>
-    <br>
-- Leslie would like to check and view all the issues after they have been published so that she can keep track of them.
-  - As an admin, I want to be able to view all issues regardless of their status, whether they are resolved, in progress, or new.
-    <br>
-    <br>
-- Leslie would like to search through the issues, to find a specific issue she is looking for, instead of going one by one at a time.
-  - As an admin, I want to be able to filter issues by either the date, name, priority, type, and status they were posted to find relative information faster.  
-    <br>
-    <br>
-- Leslie would like to have access to updating and/or removing issues if it's needed. In the case a problem is resolved, for example, has a typo or there is no possible solution for the specific problem.
-  - As an admin, I want to have the ability to update and delete all issues posted by employees.
-    <br>
-    <br>
-- Leslie would like to have access to all the issues being published regardless of their status, as there might be some issues with private information.
-  - As an admin, I want to be able to have access to issues with private status, as the employee may share sensible information.
-    <br>
-    <br>
-- Leslie would like to see all different statuses for existing issues to keep better track of them.
-  - As an admin, I want to be able to see how many employees published an issue, so that I can see new, pending, and resolved issues.
-    <br>
-    <br>
-- Leslie would like to update the status of existing issues once they get resolved.
-  - As an admin, I want to be able to update the status from new to either pending or resolved.
-    <br>
-    <br>
-- Leslie would like to leave a comment on an existing issue, reply or delete them if it's needed.
-  - As an admin, I want to have the ability to update and delete all comments made on issues by employees so employees.
-    <br>
-    <br>
+### Possible Extension for Admin
 
-#### Possible Extension for Admin
-
-- Leslie would like to see all issues represented on graphs as a visual aid, so that she can keep track of issues being published weekly, monthly, or yearly, depending on their status, priority, or type.
-  - As an admin, I want to be able to access visual charts that represent statistics of issues.
-    <br>
-    <br>
+- As an admin, I want to be able to access visual charts that represent statistics of issues. <br>
+- As an admin, I want to have the ability of updating and deleting all comments made on issues by employees. <br>
 
 <hr/>
 
@@ -275,17 +198,9 @@ On the following images below we have mapped out navigation flow of each page of
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
-We decided to use Trello, as our project management tool to keep track of our group progress and assign tasks to each member of the group. <br>
+We decided to use trello project management to keep track of our group progress and assign task to each member of the group. <br>
 
-Initially, we started at the planning phase, looking for the best idea to challenge us as junior developers. By using Trello, all cards must go through the following process to keep track of our features/tasks;
-
-- Backlog
-- To Do
-- In progress
-- On Hold
-- Done
-
-During this project, as a Team we will apply Scrum rituals, to succeed in delivering this application. With the use of Labels, Assign to Member options, Checklists, Dates and other Power-ups, we will be able excel on our project. <br>
+We created different lists for all the requirement of the project and by having a check list in each card that we were able to confirm all task were completed. <br>
 
 This is a link to the project management tool [Trello](https://trello.com/b/OiNyPtJn/issue-tracker)
 
@@ -317,4 +232,4 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ### Day #7
 
-![alt text](docs/images/trello-imgs/day7.png)
+![alt text](docs/images/trello-imgs/Day7.png)
