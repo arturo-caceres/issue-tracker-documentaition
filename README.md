@@ -155,30 +155,50 @@ The target audience of this application is the collective group of employees and
 
 ## Navigation of application
 
+On the following images below we have mapped out navigation flow of each page of the application from the start point which is a login page.
+
 ![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
 ![alt text](docs/images/wireframe-imgs/employee-navigation-view.png)
 
 ### Admin Wireframe
 
-![alt text](docs/images/wireframe-imgs/loginpage.png)
-![alt text](docs/images/wireframe-imgs/dashboardpage.png)
-![alt text](docs/images/wireframe-imgs/ticketpage.png)
-![alt text](docs/images/wireframe-imgs/SingleTicket.png)
-![alt text](docs/images/wireframe-imgs/CreateNewTicket.png)
-![alt text](docs/images/wireframe-imgs/listofemployee.png)
-![alt text](docs/images/wireframe-imgs/Createaccount.png)
-![alt text](docs/images/wireframe-imgs/graphpage.png)
+- Login page
+  ![alt text](docs/images/wireframe-imgs/loginpage.png)
+- Dashboard page
+  ![alt text](docs/images/wireframe-imgs/dashboardpage.png)
+- Tickets page
+  ![alt text](docs/images/wireframe-imgs/ticketpage.png)
+- View ticket page
+  ![alt text](docs/images/wireframe-imgs/SingleTicket.png)
+- Create a new ticket page
+  ![alt text](docs/images/wireframe-imgs/CreateNewTicket.png)
+- List of employees page
+  ![alt text](docs/images/wireframe-imgs/listofemployee.png)
+- Create account / Sign up page
+  ![alt text](docs/images/wireframe-imgs/Createaccount.png)
+- Graph and statistic page
+  ![alt text](docs/images/wireframe-imgs/graphpage.png)
 
 ### Employee wireframes
 
-![alt text](docs/images/wireframe-imgs/employeedashboard.png)
-![alt text](docs/images/wireframe-imgs/employeenewticket.png)
-![alt text](docs/images/wireframe-imgs/employeeviewticket.png)
-![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
+- Dashboard page
+  ![alt text](docs/images/wireframe-imgs/employeedashboard.png)
+- Create ticket page
+  ![alt text](docs/images/wireframe-imgs/employeenewticket.png)
+- View ticket page
+  ![alt text](docs/images/wireframe-imgs/employeeviewticket.png)
+- Edit account / profile page
+  ![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
 
 # R6 - Screenshots of your Trello board throughout the duration of the project
 
+We decided to use trello project management to keep track of our group progress and assign task to each member of the group. <br>
+
+We created different lists for all the requirement of the project and by having a check list in each card that we were able to confirm all task were completed. <br>
+
 This is a link to the project management tool [Trello](https://trello.com/b/OiNyPtJn/issue-tracker)
+
+<hr>
 
 ### Day #1
 
