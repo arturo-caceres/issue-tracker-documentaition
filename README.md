@@ -2,7 +2,7 @@
 
 # A link (URL) to deployed website
 
-[Deployed Website](http://locksecurity.net/employee)
+[Deployed Website](http://locksecurity.net)
 
 # A link to GitHub repository
 
@@ -364,16 +364,16 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ### Frontend Libraries
 
-|     Library      | Description                            |
-| :--------------: | :------------------------------------- |
-|      react       | Express is a minimal                   |
-|       mui        | Express is a minimal                   |
-|     chart.js     | Express is a minimal                   |
-|    jwt-decode    | Express is a minimal                   |
-| react-chartjs-2  | Express is a minimal                   |
-|      moment      | Express is a minimal                   |
-| react-router-dom | Express is a minimal                   |
-| react-hook-form  | Express is a minimal                   |
-|    react-dom     | Express is a minimal                   |
-|  react-scripts   | Express is a minimal                   |
-|       jest       | Jest is a JavaScript testing framework |
+|     Library      | Description                                                                                        |
+| :--------------: | :------------------------------------------------------------------------------------------------- |
+|      react       | Front-end JavaScript library for building user interfaces based on UI components.                  |
+|       mui        | MUI provides a robust, customizable, and accessible library of foundational and advanced component |
+|     chart.js     | JavaScript charting library                                                                        |
+| react-chartjs-2  | React components for Chart.js                                                                      |
+|    jwt-decode    | library that helps decoding JWTs token which are Base64Url encoded                                 |
+|       jest       | Jest is a JavaScript testing framework                                                             |
+|      moment      | library for parsing, validating, manipulating, and formatting dates.                               |
+| react-router-dom | Routing library for the React JavaScript library.                                                  |
+|    react-dom     | serves as the entry point to the DOM and server renderers for React                                |
+| react-hook-form  | library used for building React forms with validations                                             |
+|  react-scripts   | This package includes scripts and configuration used by Create React App.                          |
