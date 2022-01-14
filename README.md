@@ -1,14 +1,39 @@
-# Final Assignment T3A2-A
-
-- Ahmet Erturk
-- Arturo Caceres
-- Mohammad Reza Fayazi
-
 # Lock Security
+
+# A link (URL) to deployed website
+
+[Deployed Website](http://locksecurity.net/employee)
+
+# A link to GitHub repository
+
+### [Back-end Repository](https://github.com/ahmetterturk/issue-management-backend)
+
+### [Front-end Repository](https://github.com/saman-zdf/issue-management-client)
+
+# Table Of Contents
+
+#### Part A
+
+- [ Description of your website](#description-of-website)
+
+  - [Purpose](#purpose)
+  - [Functionality and Features](#functionality-and-features)
+  - [Target Audience](#target-audience)
+  - [Tech Stack](#tech-stack)
+
+- [Dataflow Diagram](#dataflow-diagram)
+- [Application Architecture Diagram](#application-architecture-diagram)
+- [User Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Trello](#trello)
+
+#### Part B
+
+- [Libraries](#libraries)
 
 ---
 
-# R1 - Description of website
+# Description of website
 
 ## Purpose
 
@@ -23,7 +48,7 @@ Lock security is a security company that offers various services to clients. The
 
 The purpose of this application is to provide a software platform for the security company to manage all their issues effectively. This application aims to provide issue tracking of operations to be managed in a way that is convinient and time efficient.
 
-## Functionality / Features
+## Functionality and Features
 
 ### Authentication
 
@@ -53,7 +78,7 @@ The application has an admin feature where the user who is given admin status ha
 
 Users in the program can have different roles assigned to them by the admin users.
 
-## Target audience
+## Target Audience
 
 The target audience of this application is the collective group of employees and managers in the Lock Security company. Personnel should be able to effectively use the application and contribute to issues posted.
 
@@ -106,19 +131,19 @@ The target audience of this application is the collective group of employees and
 
 ---
 
-# R2 - Dataflow Diagram
+# Dataflow Diagram
 
 ![alt text](docs/images/DFD.png)
 
 ---
 
-# R3 - Application Architecture Diagram
+# Application Architecture Diagram
 
 ![alt text](docs/images/AAD.png)
 
 <hr/>
 
-# R4 - User Stories
+# User Stories
 
 ### **User Personas**
 
@@ -234,7 +259,7 @@ The target audience of this application is the collective group of employees and
 
 <hr/>
 
-# R5 - Wireframes for multiple standard screen sizes, created using industry standard software
+# Wireframes
 
 ## Navigation of application
 
@@ -273,7 +298,7 @@ On the following images below we have mapped out navigation flow of each page of
 - Edit account / profile page
   ![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
 
-# R6 - Screenshots of your Trello board throughout the duration of the project
+# Trello
 
 We decided to use Trello, as our project management tool to keep track of our group progress and assign tasks to each member of the group. <br>
 
@@ -318,3 +343,37 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 ### Day #7
 
 ![alt text](docs/images/trello-imgs/Day7.png)
+
+# Libraries
+
+### Backend Libraries
+
+|      Library       | Description                                                                                                                                                       |
+| :----------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      express       | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.                       |
+|      mongoose      | Object modeling tool designed to work in an asynchronous environment                                                                                              |
+|    jsonwebtoken    | A library used for implementation of JSON Web Tokens                                                                                                              |
+|      bcryptjs      | A library to help you hash passwords.                                                                                                                             |
+|        cors        | CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.                                        |
+|       dotenv       | Dotenv is a module that loads environment variables from a .env file into process.env.                                                                            |
+|        jest        | Jest is a JavaScript testing framework                                                                                                                            |
+|     supertest      | SuperTest is an HTTP assertions library that allows you to test your Node. js HTTP servers.                                                                       |
+|      nodemon       | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. |
+|     cloudinary     | Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.                                                     |
+| express-fileupload | Simple express middleware for uploading files.                                                                                                                    |
+
+### Frontend Libraries
+
+|     Library      | Description                            |
+| :--------------: | :------------------------------------- |
+|      react       | Express is a minimal                   |
+|       mui        | Express is a minimal                   |
+|     chart.js     | Express is a minimal                   |
+|    jwt-decode    | Express is a minimal                   |
+| react-chartjs-2  | Express is a minimal                   |
+|      moment      | Express is a minimal                   |
+| react-router-dom | Express is a minimal                   |
+| react-hook-form  | Express is a minimal                   |
+|    react-dom     | Express is a minimal                   |
+|  react-scripts   | Express is a minimal                   |
+|       jest       | Jest is a JavaScript testing framework |
