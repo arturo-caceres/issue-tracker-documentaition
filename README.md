@@ -26,6 +26,7 @@
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
 - [Trello](#trello)
+- [Installation](#installation)
 
 #### Part B
 
@@ -512,3 +513,78 @@ _ Sub bullets
 ![Update Issue Wrong Token](docs/images/postman-screenshot/update-issue-wrong-token.png)
 
 </details>
+
+---
+
+## Installation
+
+Installation to check the Development environment
+
+First you need to fork or clone the repository and run in your command line
+
+```
+git clone git@github.com:saman-zdf/issue-management-client.git
+```
+
+Navigate to the root directory nad you can either run
+
+```
+npm install
+```
+
+or
+
+```
+yarn install
+```
+
+to install all dependencies in order to run the application.
+
+Next you need to run either:
+
+```
+npm start
+```
+
+or
+
+```
+yarn start
+```
+
+to run the server for the client side.
+
+if you need to see the server Development environment, first you need to fork or clone the server repository and run in your command line
+
+```
+git clone git@github.com:ahmetterturk/issue-management-backend.git
+```
+
+To install all dependencies you need to navigate to root directory and run:
+
+```
+npm install
+```
+
+There some different API sush as database key, cloudinary(image upload), jwt secret key and etc. You need to provide your own key in order the run the server and see the result. Keys are:
+
+```
+<!-- mongoDB uri needed -->
+DATABASE_URI
+<!-- Cloudinary api key and name -->
+CLOUD_NAME
+CLOUD_API_KEY
+CLOUD_API_SECRET
+<!-- JWT secret key wich you create your own string -->
+JWT_SECRET
+```
+
+Once you have all keys you can create .env file on the root directory and place all your keys in that file.
+
+You can run to run the server
+
+```
+npm run dev
+```
+
+---
