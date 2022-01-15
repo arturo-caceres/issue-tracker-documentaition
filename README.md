@@ -133,13 +133,25 @@ The target audience of this application is the collective group of employees and
 
 # Dataflow Diagram
 
+### Initial Version
+
 ![alt text](docs/images/DFD.png)
+
+### Fianl Version
+
+![alt text](docs/images/DFD-final.png)
 
 ---
 
 # Application Architecture Diagram
 
+### Initial Version
+
 ![alt text](docs/images/AAD.png)
+
+### Final Version
+
+![alt text](docs/images/AAD-final-version.png)
 
 <hr/>
 
@@ -265,7 +277,9 @@ The target audience of this application is the collective group of employees and
 
 On the following images below we have mapped out navigation flow of each page of the application from the start point which is a login page.
 
-![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
+<details>
+  <summary>Wireframes</summary>
+  ![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
 ![alt text](docs/images/wireframe-imgs/employee-navigation-view.png)
 
 ### Admin Wireframe
@@ -297,6 +311,10 @@ On the following images below we have mapped out navigation flow of each page of
   ![alt text](docs/images/wireframe-imgs/employeeviewticket.png)
 - Edit account / profile page
   ![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
+
+</details>
+
+---
 
 # Trello
 
@@ -365,7 +383,6 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 ---
 
 ### Frontend Libraries
-
 
 |     Library      | Description                                                                                        |
 | :--------------: | :------------------------------------------------------------------------------------------------- |
@@ -470,4 +487,3 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 ![Update Issue Wrong Token](docs/images/postman-screenshot/update-issue-wrong-token.png)
 
 </details>
-
