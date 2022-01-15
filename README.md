@@ -400,6 +400,31 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ---
 
+<br>
+
+## Management Methodology
+
+### Scrumban
+
+The Team has decided to use the [Scrumban](https://www.infolio.co/post/how-to-get-started-with-scrumban) Methodology.
+Agile project management using scrumban is a relatively new hybrid methodology that combines scrum with Kanban. Kanban's flexibility is combined with the structure of scrum to create a unique approach to managing projects.
+
+Scrumban works on the principle of planning-on-demand rather than working in timeboxed sprints, and tasks are assigned by the team as long as they can accommodate them, like in Kanban. As a result, work in progress is limited, and the development team can concentrate on tasks at hand instead of worrying about what the sprint review will reveal.
+
+There's more to it than just Kanban. The Scrumban process maintains a daily Scrum with reviews and retrospectives only used when needed to optimize the process. As a result of the lack of sprints, planning is done as-needed, rather than around a sprint, potentially saving time.
+
+### Trello Screentshot
+
+<details>
+  <summary>Click to expand!</summary>
+1. A numbered
+2. list
+_ With some
+_ Sub bullets
+</details>
+
+---
+
 ## User Test
 
 <details>
