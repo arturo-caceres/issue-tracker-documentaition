@@ -1,14 +1,14 @@
-# Lock Security
+# **Lock Security**
 
-# A link (URL) to deployed website
+[Deployed Website - Locksecurity.net](http://locksecurity.net)
 
-[Deployed Website](http://locksecurity.net)
+## GitHub repository
 
-# A link to GitHub repository
+#### [Back-end Repository](https://github.com/ahmetterturk/issue-management-backend)
 
-### [Back-end Repository](https://github.com/ahmetterturk/issue-management-backend)
+#### [Front-end Repository](https://github.com/saman-zdf/issue-management-client)
 
-### [Front-end Repository](https://github.com/saman-zdf/issue-management-client)
+<br>
 
 # Table Of Contents
 
@@ -29,7 +29,11 @@
 
 #### Part B
 
+- [Install](#install)
 - [Libraries](#libraries)
+- [Management Methodology](#management-methodology)
+- [Testing](#user-testing)
+- [Acknowledgement](#acknowledgement)
 
 ---
 
@@ -344,7 +348,41 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ![alt text](docs/images/trello-imgs/Day7.png)
 
-# Libraries
+<br>
+
+# **Install**
+
+Install the prerequisites:
+
+1. `Clone` the following repos:
+
+`Back-end`
+
+```
+git clone https://github.com/ahmetterturk/issue-management-backend
+```
+
+`Front-end`
+
+```
+git clone https://github.com/saman-zdf/issue-management-client
+```
+
+2. For the `Back-end`, go to root folder and run :
+
+```
+npm run dev
+```
+
+3. For the `Front-end`, go to root folder and run :
+
+```
+yarn start
+```
+
+<br>
+
+# **Libraries**
 
 ### Backend Libraries
 
@@ -384,34 +422,322 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 <br>
 
-## Management Methodology
+## **Management Methodology**
 
-### Scrumban
+### **Scrumban**
 
 The Team has decided to use the [Scrumban](https://www.infolio.co/post/how-to-get-started-with-scrumban) Methodology.
-Agile project management using scrumban is a relatively new hybrid methodology that combines scrum with Kanban. Kanban's flexibility is combined with the structure of scrum to create a unique approach to managing projects.
+Agile project management using scrumban is a relatively new hybrid methodology that combines Scrum with Kanban. Kanban's flexibility is combined with the structure of
+Scrum to create a unique approach to managing projects.
 
 Scrumban works on the principle of planning-on-demand rather than working in timeboxed sprints, and tasks are assigned by the team as long as they can accommodate them, like in Kanban. As a result, work in progress is limited, and the development team can concentrate on tasks at hand instead of worrying about what the sprint review will reveal.
 
 There's more to it than just Kanban. The Scrumban process maintains a daily Scrum with reviews and retrospectives only used when needed to optimize the process. As a result of the lack of sprints, planning is done as-needed, rather than around a sprint, potentially saving time.
 
-### Trello Screentshot
+### **Trello Screentshots**
 
 <details>
-  <summary>Click to expand!</summary>
-1. A numbered
-2. list
-_ With some
-_ Sub bullets
+  <summary>Week 1</summary>
+  <summary>7/Dec/21</summary>
+
+![7/Dec/21](docs/images/trello-imgs/7_Dec_21.png)
+
+  <summary>8/Dec/21</summary>
+
+![8/Dec/21](docs/images/trello-imgs/8_Dec_21.png)
+
+  <summary>9/Dec/21</summary>
+
+![9/Dec/21](docs/images/trello-imgs/9_Dec_21.png)
+
+  <summary>10/Dec/21</summary>
+
+![10/Dec/21](docs/images/trello-imgs/10_Dec_21.png)
+
 </details>
+
+<details>
+
+  <summary>Week 2</summary>
+  <summary>13/Dec/21</summary>
+
+![13/Dec/21](docs/images/trello-imgs/13_Dec_21.png)
+
+  <summary>14/Dec/21</summary>
+
+![14/Dec/21](docs/images/trello-imgs/14_Dec_21.png)
+
+  <summary>15/Dec/21</summary>
+
+![15/Dec/21](docs/images/trello-imgs/15_Dec_21.png)
+
+  <summary>16/Dec/21</summary>
+
+![16/Dec/21](docs/images/trello-imgs/16_Dec_21.png)
+
+ <summary>17/Dec/21</summary>
+
+![17/Dec/21](docs/images/trello-imgs/17_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 3</summary>
+  <summary>20/Dec/21</summary>
+
+![20/Dec/21](docs/images/trello-imgs/20_Dec_21.png)
+
+  <summary>21/Dec/21</summary>
+
+![21/Dec/21](docs/images/trello-imgs/21_Dec_21.png)
+
+  <summary>22/Dec/21</summary>
+
+![22/Dec/21](docs/images/trello-imgs/22_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 4</summary>
+  <summary>27/Dec/21</summary>
+
+![27/Dec/21](docs/images/trello-imgs/27_Dec_21.png)
+
+  <summary>28/Dec/21</summary>
+
+![28/Dec/21](docs/images/trello-imgs/28_Dec_21.png)
+
+  <summary>29/Dec/21</summary>
+
+![29/Dec/21](docs/images/trello-imgs/29_Dec_21.png)
+
+  <summary>30/Dec/21</summary>
+
+![30/Dec/21](docs/images/trello-imgs/30_Dec_21.png)
+
+ <summary>31/Dec/21</summary>
+
+![31/Dec/21](docs/images/trello-imgs/31_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 5</summary>
+  <summary>3/Jan/22</summary>
+
+![3/Jan/22](docs/images/trello-imgs/3_Jan_22.png)
+
+  <summary>4/Jan/22</summary>
+
+![4/Jan/22](docs/images/trello-imgs/4_Jan_22.png)
+
+  <summary>5/Jan/22</summary>
+
+![5/Jan/22](docs/images/trello-imgs/5_Jan_22.png)
+
+  <summary>6/Jan/22</summary>
+
+![6/Jan/22](docs/images/trello-imgs/6_Jan_22.png)
+
+ <summary>7/Jan/22</summary>
+
+![7/Jan/22](docs/images/trello-imgs/7_Jan_22.png)
+
+ <summary>9/Jan/22</summary>
+
+![9/Jan/22](docs/images/trello-imgs/9_Jan_22.png)
+
+ </details>
+
+ <details>
+
+  <summary>Week 6</summary>
+  <summary>10/Jan/22</summary>
+
+![10/Jan/22](docs/images/trello-imgs/10_Jan_22.png)
+
+  <summary>11/Jan/22</summary>
+
+![11/Jan/22](docs/images/trello-imgs/11_Jan_22.png)
+
+  <summary>12/Jan/22</summary>
+
+![12/Jan/22](docs/images/trello-imgs/12_Jan_22.png)
+
+  <summary>13/Jan/22</summary>
+
+![13/Jan/22](docs/images/trello-imgs/13_Jan_22.png)
+
+ <summary>14/Jan/22</summary>
+
+![14/Jan/22](docs/images/trello-imgs/14_Jan_22.png)
+
+ <summary>16/Jan/22</summary>
+
+![16/Jan/22](docs/images/trello-imgs/16_Jan_22.png)
+
+ </details>
+
+<br>
+
+### **Task Delegation**
+
+As a Team, we decided to use Planyway to manage, track and balance the team's tasks throughout the project. It was a great tool used to visualize the project's roadmap and to provide the Team with direction as how to progress. At our [Daily Meetings](https://trello.com/c/kYgANaK3), the person managing the meeting would decide the tasks the team would work on, and add it Trello. Planyway would automatically track the progress of every task and create a calendar with all past, current and future tasks.
+
+<details>
+  <summary>Week 1</summary>
+  <summary>8/Dec/21</summary>
+
+![8/Dec/21](docs/images/task-delegation/8_Dec_21.png)
+
+  <summary>9/Dec/21</summary>
+
+![9/Dec/21](docs/images/task-delegation/9_Dec_21.png)
+
+  <summary>10/Dec/21</summary>
+
+![10/Dec/21](docs/images/task-delegation/10_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 2</summary>
+  <summary>13/Dec/21</summary>
+
+![13/Dec/21](docs/images/task-delegation/13_Dec_21.png)
+
+  <summary>14/Dec/21</summary>
+
+![14/Dec/21](docs/images/task-delegation/14_Dec_21.png)
+
+  <summary>15/Dec/21</summary>
+
+![15/Dec/21](docs/images/task-delegation/15_Dec_21.png)
+
+  <summary>16/Dec/21</summary>
+
+![16/Dec/21](docs/images/task-delegation/16_Dec_21.png)
+
+ <summary>17/Dec/21</summary>
+
+![17/Dec/21](docs/images/task-delegation/17_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 3</summary>
+  <summary>20/Dec/21</summary>
+
+![20/Dec/21](docs/images/task-delegation/20_Dec_21.png)
+
+  <summary>21/Dec/21</summary>
+
+![21/Dec/21](docs/images/task-delegation/21_Dec_21.png)
+
+  <summary>22/Dec/21</summary>
+
+![22/Dec/21](docs/images/task-delegation/22_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 4</summary>
+  <summary>27/Dec/21</summary>
+
+![27/Dec/21](docs/images/task-delegation/27_Dec_21.png)
+
+  <summary>28/Dec/21</summary>
+
+![28/Dec/21](docs/images/task-delegation/28_Dec_21.png)
+
+  <summary>29/Dec/21</summary>
+
+![29/Dec/21](docs/images/task-delegation/29_Dec_21.png)
+
+  <summary>30/Dec/21</summary>
+
+![30/Dec/21](docs/images/task-delegation/30_Dec_21.png)
+
+ <summary>31/Dec/21</summary>
+
+![31/Dec/21](docs/images/task-delegation/31_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 5</summary>
+  <summary>3/Jan/22</summary>
+
+![3/Jan/22](docs/images/task-delegation/3_Jan_22.png)
+
+  <summary>4/Jan/22</summary>
+
+![4/Jan/22](docs/images/task-delegation/4_Jan_22.png)
+
+  <summary>5/Jan/22</summary>
+
+![5/Jan/22](docs/images/task-delegation/5_Jan_22.png)
+
+  <summary>6/Jan/22</summary>
+
+![6/Jan/22](docs/images/task-delegation/6_Jan_22.png)
+
+ <summary>7/Jan/22</summary>
+
+![7/Jan/22](docs/images/task-delegation/7_Jan_22.png)
+
+ <summary>9/Jan/22</summary>
+
+![9/Jan/22](docs/images/task-delegation/9_Jan_22.png)
+
+ </details>
+
+ <details>
+
+  <summary>Week 6</summary>
+  <summary>10/Jan/22</summary>
+
+![10/Jan/22](docs/images/task-delegation/10_Jan_22.png)
+
+  <summary>11/Jan/22</summary>
+
+![11/Jan/22](docs/images/task-delegation/11_Jan_22.png)
+
+  <summary>12/Jan/22</summary>
+
+![12/Jan/22](docs/images/task-delegation/12_Jan_22.png)
+
+  <summary>13/Jan/22</summary>
+
+![13/Jan/22](docs/images/task-delegation/13_Jan_22.png)
+
+ <summary>14/Jan/22</summary>
+
+![14/Jan/22](docs/images/task-delegation/14_Jan_22.png)
+
+ </details>
+
+<br>
 
 ---
 
-## User Test
+## **User Testing**
+
+<br>
+
+#### - **Development Environment**
 
 <details>
   <summary>User testing postman</summary>
-  #### 1. User signup
+
+#### 1. User signup
 
 ![User Login](docs/images/postman-screenshot/signupuser.png)
 
@@ -435,6 +761,8 @@ _ Sub bullets
 
 ![Single User](docs/images/postman-screenshot/single-user.png)
 
+<br>
+
 ## Issues
 
 #### 7. All issues
@@ -445,7 +773,7 @@ _ Sub bullets
 
 ![single Issue](docs/images/postman-screenshot/single-issue.png)
 
-#### 9. create issue
+#### 9. Create issue
 
 ![Create Issue](docs/images/postman-screenshot/create-issue.png)
 
@@ -453,7 +781,7 @@ _ Sub bullets
 
 ![Update Issue](docs/images/postman-screenshot/issue-update.png)
 
-#### 11. delete issue
+#### 11. Delete issue
 
 ![Delete Isseu](docs/images/postman-screenshot/delete-issue.png)
 
@@ -494,3 +822,32 @@ _ Sub bullets
 ![Update Issue Wrong Token](docs/images/postman-screenshot/update-issue-wrong-token.png)
 
 </details>
+
+<br>
+
+#### - **Production Environment**
+
+Link to [Lock Security](https://docs.google.com/spreadsheets/d/1Fw4zb-6sjoZg3VTr4ZUjRHxAVZFopGknQ-BvnhJAorI/edit?usp=sharing) - Manual Testing
+
+<br>
+
+### Formal Testing Framework
+
+<details>
+  <summary>Tests</summary>
+ 
+![Terminal - Tests](docs/images/tests/all-components-test.png)
+
+![Chrome - Tests](docs/images/tests/index-all-tests.png)
+
+</details>
+
+<br>
+
+---
+
+### **Acknowledgement**
+
+- Ahmet Erturk
+- Arturo Caceres
+- Mohammad Reza Fayazi
