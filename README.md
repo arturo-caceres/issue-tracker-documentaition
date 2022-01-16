@@ -1,14 +1,14 @@
-# Lock Security
+# **Lock Security**
 
-# A link (URL) to deployed website
+[Deployed Website - Locksecurity.net](http://locksecurity.net)
 
-[Deployed Website](http://locksecurity.net)
+## GitHub repository
 
-# A link to GitHub repository
+#### [Back-end Repository](https://github.com/ahmetterturk/issue-management-backend)
 
-### [Back-end Repository](https://github.com/ahmetterturk/issue-management-backend)
+#### [Front-end Repository](https://github.com/saman-zdf/issue-management-client)
 
-### [Front-end Repository](https://github.com/saman-zdf/issue-management-client)
+<br>
 
 # Table Of Contents
 
@@ -30,7 +30,11 @@
 
 #### Part B
 
+- [Install](#install)
 - [Libraries](#libraries)
+- [Management Methodology](#management-methodology)
+- [Testing](#user-testing)
+- [Acknowledgement](#acknowledgement)
 
 ---
 
@@ -363,160 +367,9 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 ![alt text](docs/images/trello-imgs/Day7.png)
 
-# Libraries
-
-### Backend Libraries
-
-|      Library       | Description                                                                                                                                                       |
-| :----------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|      express       | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.                       |
-|      mongoose      | Object modeling tool designed to work in an asynchronous environment                                                                                              |
-|    jsonwebtoken    | A library used for implementation of JSON Web Tokens                                                                                                              |
-|      bcryptjs      | A library to help you hash passwords.                                                                                                                             |
-|        cors        | CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.                                        |
-|       dotenv       | Dotenv is a module that loads environment variables from a .env file into process.env.                                                                            |
-|        jest        | Jest is a JavaScript testing framework                                                                                                                            |
-|     supertest      | SuperTest is an HTTP assertions library that allows you to test your Node. js HTTP servers.                                                                       |
-|      nodemon       | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. |
-|     cloudinary     | Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.                                                     |
-| express-fileupload | Simple express middleware for uploading files.                                                                                                                    |
-
----
-
-### Frontend Libraries
-
-|     Library      | Description                                                                                        |
-| :--------------: | :------------------------------------------------------------------------------------------------- |
-|      react       | Front-end JavaScript library for building user interfaces based on UI components.                  |
-|       mui        | MUI provides a robust, customizable, and accessible library of foundational and advanced component |
-|     chart.js     | JavaScript charting library                                                                        |
-| react-chartjs-2  | React components for Chart.js                                                                      |
-|    jwt-decode    | library that helps decoding JWTs token which are Base64Url encoded                                 |
-|       jest       | Jest is a JavaScript testing framework                                                             |
-|      moment      | library for parsing, validating, manipulating, and formatting dates.                               |
-| react-router-dom | Routing library for the React JavaScript library.                                                  |
-|    react-dom     | serves as the entry point to the DOM and server renderers for React                                |
-| react-hook-form  | library used for building React forms with validations                                             |
-|  react-scripts   | This package includes scripts and configuration used by Create React App.                          |
-
----
-
 <br>
 
-## Management Methodology
-
-### Scrumban
-
-The Team has decided to use the [Scrumban](https://www.infolio.co/post/how-to-get-started-with-scrumban) Methodology.
-Agile project management using scrumban is a relatively new hybrid methodology that combines scrum with Kanban. Kanban's flexibility is combined with the structure of scrum to create a unique approach to managing projects.
-
-Scrumban works on the principle of planning-on-demand rather than working in timeboxed sprints, and tasks are assigned by the team as long as they can accommodate them, like in Kanban. As a result, work in progress is limited, and the development team can concentrate on tasks at hand instead of worrying about what the sprint review will reveal.
-
-There's more to it than just Kanban. The Scrumban process maintains a daily Scrum with reviews and retrospectives only used when needed to optimize the process. As a result of the lack of sprints, planning is done as-needed, rather than around a sprint, potentially saving time.
-
-### Trello Screentshot
-
-<details>
-  <summary>Click to expand!</summary>
-1. A numbered
-2. list
-_ With some
-_ Sub bullets
-</details>
-
----
-
-## User Test
-
-<details>
-  <summary>User testing postman</summary>
-  #### 1. User signup
-
-![User Login](docs/images/postman-screenshot/signupuser.png)
-
-#### 2. User login
-
-![User Signup](docs/images/postman-screenshot/signin-user.png)
-
-#### 3. Update user
-
-![User update](docs/images/postman-screenshot/user-update.png)
-
-#### 4. delete user
-
-![User Delete](docs/images/postman-screenshot/delete-user.png)
-
-#### 5. All users
-
-![All Users](docs/images/postman-screenshot/all-users.png)
-
-#### 6. Single user
-
-![Single User](docs/images/postman-screenshot/single-user.png)
-
-## Issues
-
-#### 7. All issues
-
-![All Isseus](docs/images/postman-screenshot/all-issues.png)
-
-#### 8. Single issue
-
-![single Issue](docs/images/postman-screenshot/single-issue.png)
-
-#### 9. create issue
-
-![Create Issue](docs/images/postman-screenshot/create-issue.png)
-
-#### 10. Update issue
-
-![Update Issue](docs/images/postman-screenshot/issue-update.png)
-
-#### 11. delete issue
-
-![Delete Isseu](docs/images/postman-screenshot/delete-issue.png)
-
-#### 12. Create message
-
-![Create Message](docs/images/postman-screenshot/create-message.png)
-
-#### 13. Delete message
-
-![Delete Message](docs/images/postman-screenshot/delete-message.png)
-
-#### 14. Signin with wrong password
-
-![Singin Wrong Pass](docs/images/postman-screenshot/signin-wrong-pass.png)
-
-#### 15. Signin with wrong email
-
-![Singin Wrong Email](docs/images/postman-screenshot/signin-wrong-email.png)
-
-#### 16. Singup with existing email
-
-![Singup Existing Email](docs/images/postman-screenshot/signup-existing-user.png)
-
-#### 17. Delete user with wrong token
-
-![Delete User Wrong Token](docs/images/postman-screenshot/delete-user-wrong-token.png)
-
-#### 18. Create issue with wrong token
-
-![Create Issue Wrong Token](docs/images/postman-screenshot/create-issues-wrong-token.png)
-
-#### 19. Delete issue with wrong token
-
-![Delete Issue Wrong Token](docs/images/postman-screenshot/delete-issue-wrong-token.png)
-
-#### 20. Update issue with wrong token
-
-![Update Issue Wrong Token](docs/images/postman-screenshot/update-issue-wrong-token.png)
-
-</details>
-
----
-
-## Installation
+# **Install**
 
 Installation to check the Development environment
 
@@ -586,5 +439,477 @@ You can run to run the server
 ```
 npm run dev
 ```
+
+<br>
+
+# **Libraries**
+
+### Backend Libraries
+
+|      Library       | Description                                                                                                                                                       |
+| :----------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      express       | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.                       |
+|      mongoose      | Object modeling tool designed to work in an asynchronous environment                                                                                              |
+|    jsonwebtoken    | A library used for implementation of JSON Web Tokens                                                                                                              |
+|      bcryptjs      | A library to help you hash passwords.                                                                                                                             |
+|        cors        | CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.                                        |
+|       dotenv       | Dotenv is a module that loads environment variables from a .env file into process.env.                                                                            |
+|        jest        | Jest is a JavaScript testing framework                                                                                                                            |
+|     supertest      | SuperTest is an HTTP assertions library that allows you to test your Node. js HTTP servers.                                                                       |
+|      nodemon       | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. |
+|     cloudinary     | Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.                                                     |
+| express-fileupload | Simple express middleware for uploading files.                                                                                                                    |
+
+---
+
+### Frontend Libraries
+
+|     Library      | Description                                                                                        |
+| :--------------: | :------------------------------------------------------------------------------------------------- |
+|      react       | Front-end JavaScript library for building user interfaces based on UI components.                  |
+|       mui        | MUI provides a robust, customizable, and accessible library of foundational and advanced component |
+|     chart.js     | JavaScript charting library                                                                        |
+| react-chartjs-2  | React components for Chart.js                                                                      |
+|    jwt-decode    | library that helps decoding JWTs token which are Base64Url encoded                                 |
+|       jest       | Jest is a JavaScript testing framework                                                             |
+|      moment      | library for parsing, validating, manipulating, and formatting dates.                               |
+| react-router-dom | Routing library for the React JavaScript library.                                                  |
+|    react-dom     | serves as the entry point to the DOM and server renderers for React                                |
+| react-hook-form  | library used for building React forms with validations                                             |
+|  react-scripts   | This package includes scripts and configuration used by Create React App.                          |
+
+---
+
+<br>
+
+## **Management Methodology**
+
+### **Scrumban**
+
+The Team has decided to use the [Scrumban](https://www.infolio.co/post/how-to-get-started-with-scrumban) Methodology.
+Agile project management using scrumban is a relatively new hybrid methodology that combines Scrum with Kanban. Kanban's flexibility is combined with the structure of
+Scrum to create a unique approach to managing projects.
+
+Scrumban works on the principle of planning-on-demand rather than working in timeboxed sprints, and tasks are assigned by the team as long as they can accommodate them, like in Kanban. As a result, work in progress is limited, and the development team can concentrate on tasks at hand instead of worrying about what the sprint review will reveal.
+
+There's more to it than just Kanban. The Scrumban process maintains a daily Scrum with reviews and retrospectives only used when needed to optimize the process. As a result of the lack of sprints, planning is done as-needed, rather than around a sprint, potentially saving time.
+
+### **Trello Screentshots**
+
+<details>
+  <summary>Week 1</summary>
+  <summary>7/Dec/21</summary>
+
+![7/Dec/21](docs/images/trello-imgs/7_Dec_21.png)
+
+  <summary>8/Dec/21</summary>
+
+![8/Dec/21](docs/images/trello-imgs/8_Dec_21.png)
+
+  <summary>9/Dec/21</summary>
+
+![9/Dec/21](docs/images/trello-imgs/9_Dec_21.png)
+
+  <summary>10/Dec/21</summary>
+
+![10/Dec/21](docs/images/trello-imgs/10_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 2</summary>
+  <summary>13/Dec/21</summary>
+
+![13/Dec/21](docs/images/trello-imgs/13_Dec_21.png)
+
+  <summary>14/Dec/21</summary>
+
+![14/Dec/21](docs/images/trello-imgs/14_Dec_21.png)
+
+  <summary>15/Dec/21</summary>
+
+![15/Dec/21](docs/images/trello-imgs/15_Dec_21.png)
+
+  <summary>16/Dec/21</summary>
+
+![16/Dec/21](docs/images/trello-imgs/16_Dec_21.png)
+
+ <summary>17/Dec/21</summary>
+
+![17/Dec/21](docs/images/trello-imgs/17_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 3</summary>
+  <summary>20/Dec/21</summary>
+
+![20/Dec/21](docs/images/trello-imgs/20_Dec_21.png)
+
+  <summary>21/Dec/21</summary>
+
+![21/Dec/21](docs/images/trello-imgs/21_Dec_21.png)
+
+  <summary>22/Dec/21</summary>
+
+![22/Dec/21](docs/images/trello-imgs/22_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 4</summary>
+  <summary>27/Dec/21</summary>
+
+![27/Dec/21](docs/images/trello-imgs/27_Dec_21.png)
+
+  <summary>28/Dec/21</summary>
+
+![28/Dec/21](docs/images/trello-imgs/28_Dec_21.png)
+
+  <summary>29/Dec/21</summary>
+
+![29/Dec/21](docs/images/trello-imgs/29_Dec_21.png)
+
+  <summary>30/Dec/21</summary>
+
+![30/Dec/21](docs/images/trello-imgs/30_Dec_21.png)
+
+ <summary>31/Dec/21</summary>
+
+![31/Dec/21](docs/images/trello-imgs/31_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 5</summary>
+  <summary>3/Jan/22</summary>
+
+![3/Jan/22](docs/images/trello-imgs/3_Jan_22.png)
+
+  <summary>4/Jan/22</summary>
+
+![4/Jan/22](docs/images/trello-imgs/4_Jan_22.png)
+
+  <summary>5/Jan/22</summary>
+
+![5/Jan/22](docs/images/trello-imgs/5_Jan_22.png)
+
+  <summary>6/Jan/22</summary>
+
+![6/Jan/22](docs/images/trello-imgs/6_Jan_22.png)
+
+ <summary>7/Jan/22</summary>
+
+![7/Jan/22](docs/images/trello-imgs/7_Jan_22.png)
+
+ <summary>9/Jan/22</summary>
+
+![9/Jan/22](docs/images/trello-imgs/9_Jan_22.png)
+
+ </details>
+
+ <details>
+
+  <summary>Week 6</summary>
+  <summary>10/Jan/22</summary>
+
+![10/Jan/22](docs/images/trello-imgs/10_Jan_22.png)
+
+  <summary>11/Jan/22</summary>
+
+![11/Jan/22](docs/images/trello-imgs/11_Jan_22.png)
+
+  <summary>12/Jan/22</summary>
+
+![12/Jan/22](docs/images/trello-imgs/12_Jan_22.png)
+
+  <summary>13/Jan/22</summary>
+
+![13/Jan/22](docs/images/trello-imgs/13_Jan_22.png)
+
+ <summary>14/Jan/22</summary>
+
+![14/Jan/22](docs/images/trello-imgs/14_Jan_22.png)
+
+ <summary>16/Jan/22</summary>
+
+![16/Jan/22](docs/images/trello-imgs/16_Jan_22.png)
+
+ </details>
+
+<br>
+
+### **Task Delegation**
+
+As a Team, we decided to use Planyway to manage, track and balance the team's tasks throughout the project. It was a great tool used to visualize the project's roadmap and to provide the Team with direction as how to progress. At our [Daily Meetings](https://trello.com/c/kYgANaK3), the person managing the meeting would decide the tasks the team would work on, and add it Trello. Planyway would automatically track the progress of every task and create a calendar with all past, current and future tasks.
+
+<details>
+  <summary>Week 1</summary>
+  <summary>8/Dec/21</summary>
+
+![8/Dec/21](docs/images/task-delegation/8_Dec_21.png)
+
+  <summary>9/Dec/21</summary>
+
+![9/Dec/21](docs/images/task-delegation/9_Dec_21.png)
+
+  <summary>10/Dec/21</summary>
+
+![10/Dec/21](docs/images/task-delegation/10_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 2</summary>
+  <summary>13/Dec/21</summary>
+
+![13/Dec/21](docs/images/task-delegation/13_Dec_21.png)
+
+  <summary>14/Dec/21</summary>
+
+![14/Dec/21](docs/images/task-delegation/14_Dec_21.png)
+
+  <summary>15/Dec/21</summary>
+
+![15/Dec/21](docs/images/task-delegation/15_Dec_21.png)
+
+  <summary>16/Dec/21</summary>
+
+![16/Dec/21](docs/images/task-delegation/16_Dec_21.png)
+
+ <summary>17/Dec/21</summary>
+
+![17/Dec/21](docs/images/task-delegation/17_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 3</summary>
+  <summary>20/Dec/21</summary>
+
+![20/Dec/21](docs/images/task-delegation/20_Dec_21.png)
+
+  <summary>21/Dec/21</summary>
+
+![21/Dec/21](docs/images/task-delegation/21_Dec_21.png)
+
+  <summary>22/Dec/21</summary>
+
+![22/Dec/21](docs/images/task-delegation/22_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 4</summary>
+  <summary>27/Dec/21</summary>
+
+![27/Dec/21](docs/images/task-delegation/27_Dec_21.png)
+
+  <summary>28/Dec/21</summary>
+
+![28/Dec/21](docs/images/task-delegation/28_Dec_21.png)
+
+  <summary>29/Dec/21</summary>
+
+![29/Dec/21](docs/images/task-delegation/29_Dec_21.png)
+
+  <summary>30/Dec/21</summary>
+
+![30/Dec/21](docs/images/task-delegation/30_Dec_21.png)
+
+ <summary>31/Dec/21</summary>
+
+![31/Dec/21](docs/images/task-delegation/31_Dec_21.png)
+
+</details>
+
+<details>
+
+  <summary>Week 5</summary>
+  <summary>3/Jan/22</summary>
+
+![3/Jan/22](docs/images/task-delegation/3_Jan_22.png)
+
+  <summary>4/Jan/22</summary>
+
+![4/Jan/22](docs/images/task-delegation/4_Jan_22.png)
+
+  <summary>5/Jan/22</summary>
+
+![5/Jan/22](docs/images/task-delegation/5_Jan_22.png)
+
+  <summary>6/Jan/22</summary>
+
+![6/Jan/22](docs/images/task-delegation/6_Jan_22.png)
+
+ <summary>7/Jan/22</summary>
+
+![7/Jan/22](docs/images/task-delegation/7_Jan_22.png)
+
+ <summary>9/Jan/22</summary>
+
+![9/Jan/22](docs/images/task-delegation/9_Jan_22.png)
+
+ </details>
+
+ <details>
+
+  <summary>Week 6</summary>
+  <summary>10/Jan/22</summary>
+
+![10/Jan/22](docs/images/task-delegation/10_Jan_22.png)
+
+  <summary>11/Jan/22</summary>
+
+![11/Jan/22](docs/images/task-delegation/11_Jan_22.png)
+
+  <summary>12/Jan/22</summary>
+
+![12/Jan/22](docs/images/task-delegation/12_Jan_22.png)
+
+  <summary>13/Jan/22</summary>
+
+![13/Jan/22](docs/images/task-delegation/13_Jan_22.png)
+
+ <summary>14/Jan/22</summary>
+
+![14/Jan/22](docs/images/task-delegation/14_Jan_22.png)
+
+ </details>
+
+<br>
+
+---
+
+## **User Testing**
+
+<br>
+
+#### - **Development Environment**
+
+<details>
+  <summary>User testing postman</summary>
+
+#### 1. User signup
+
+![User Login](docs/images/postman-screenshot/signupuser.png)
+
+#### 2. User login
+
+![User Signup](docs/images/postman-screenshot/signin-user.png)
+
+#### 3. Update user
+
+![User update](docs/images/postman-screenshot/user-update.png)
+
+#### 4. delete user
+
+![User Delete](docs/images/postman-screenshot/delete-user.png)
+
+#### 5. All users
+
+![All Users](docs/images/postman-screenshot/all-users.png)
+
+#### 6. Single user
+
+![Single User](docs/images/postman-screenshot/single-user.png)
+
+<br>
+
+## Issues
+
+#### 7. All issues
+
+![All Isseus](docs/images/postman-screenshot/all-issues.png)
+
+#### 8. Single issue
+
+![single Issue](docs/images/postman-screenshot/single-issue.png)
+
+#### 9. Create issue
+
+![Create Issue](docs/images/postman-screenshot/create-issue.png)
+
+#### 10. Update issue
+
+![Update Issue](docs/images/postman-screenshot/issue-update.png)
+
+#### 11. Delete issue
+
+![Delete Isseu](docs/images/postman-screenshot/delete-issue.png)
+
+#### 12. Create message
+
+![Create Message](docs/images/postman-screenshot/create-message.png)
+
+#### 13. Delete message
+
+![Delete Message](docs/images/postman-screenshot/delete-message.png)
+
+#### 14. Signin with wrong password
+
+![Singin Wrong Pass](docs/images/postman-screenshot/signin-wrong-pass.png)
+
+#### 15. Signin with wrong email
+
+![Singin Wrong Email](docs/images/postman-screenshot/signin-wrong-email.png)
+
+#### 16. Singup with existing email
+
+![Singup Existing Email](docs/images/postman-screenshot/signup-existing-user.png)
+
+#### 17. Delete user with wrong token
+
+![Delete User Wrong Token](docs/images/postman-screenshot/delete-user-wrong-token.png)
+
+#### 18. Create issue with wrong token
+
+![Create Issue Wrong Token](docs/images/postman-screenshot/create-issues-wrong-token.png)
+
+#### 19. Delete issue with wrong token
+
+![Delete Issue Wrong Token](docs/images/postman-screenshot/delete-issue-wrong-token.png)
+
+#### 20. Update issue with wrong token
+
+![Update Issue Wrong Token](docs/images/postman-screenshot/update-issue-wrong-token.png)
+
+</details>
+
+<br>
+
+#### - **Production Environment**
+
+Link to [Lock Security](https://docs.google.com/spreadsheets/d/1Fw4zb-6sjoZg3VTr4ZUjRHxAVZFopGknQ-BvnhJAorI/edit?usp=sharing) - Manual Testing
+
+<br>
+
+### Formal Testing Framework
+
+<details>
+  <summary>Tests</summary>
+ 
+![Terminal - Tests](docs/images/tests/all-components-test.png)
+
+![Chrome - Tests](docs/images/tests/index-all-tests.png)
+
+</details>
+
+<br>
+
+---
+
+### **Acknowledgement**
+
+- Ahmet Erturk
+- Arturo Caceres
+- Mohammad Reza Fayazi
 
 ---
