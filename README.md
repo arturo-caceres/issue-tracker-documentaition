@@ -26,6 +26,7 @@
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
 - [Trello](#trello)
+- [Installation](#installation)
 
 #### Part B
 
@@ -137,13 +138,25 @@ The target audience of this application is the collective group of employees and
 
 # Dataflow Diagram
 
+### Initial Version
+
 ![alt text](docs/images/DFD.png)
+
+### Fianl Version
+
+![alt text](docs/images/DFD-final.png)
 
 ---
 
 # Application Architecture Diagram
 
+### Initial Version
+
 ![alt text](docs/images/AAD.png)
+
+### Final Version
+
+![alt text](docs/images/AAD-final-version.png)
 
 <hr/>
 
@@ -269,7 +282,9 @@ The target audience of this application is the collective group of employees and
 
 On the following images below we have mapped out navigation flow of each page of the application from the start point which is a login page.
 
-![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
+<details>
+  <summary>Wireframes</summary>
+  ![alt text](docs/images/wireframe-imgs/admin-navigation-view.png)
 ![alt text](docs/images/wireframe-imgs/employee-navigation-view.png)
 
 ### Admin Wireframe
@@ -301,6 +316,10 @@ On the following images below we have mapped out navigation flow of each page of
   ![alt text](docs/images/wireframe-imgs/employeeviewticket.png)
 - Edit account / profile page
   ![alt text](docs/images/wireframe-imgs/employeeeditprofile.png)
+
+</details>
+
+---
 
 # Trello
 
@@ -352,32 +371,73 @@ This is a link to the project management tool [Trello](https://trello.com/b/OiNy
 
 # **Install**
 
-Install the prerequisites:
+Installation to check the Development environment
 
-1. `Clone` the following repos:
-
-`Back-end`
+First you need to fork or clone the repository and run in your command line
 
 ```
-git clone https://github.com/ahmetterturk/issue-management-backend
+git clone git@github.com:saman-zdf/issue-management-client.git
 ```
 
-`Front-end`
+Navigate to the root directory nad you can either run
 
 ```
-git clone https://github.com/saman-zdf/issue-management-client
+npm install
 ```
 
-2. For the `Back-end`, go to root folder and run :
+or
 
 ```
-npm run dev
+yarn install
 ```
 
-3. For the `Front-end`, go to root folder and run :
+to install all dependencies in order to run the application.
+
+Next you need to run either:
+
+```
+npm start
+```
+
+or
 
 ```
 yarn start
+```
+
+to run the server for the client side.
+
+if you need to see the server Development environment, first you need to fork or clone the server repository and run in your command line
+
+```
+git clone git@github.com:ahmetterturk/issue-management-backend.git
+```
+
+To install all dependencies you need to navigate to root directory and run:
+
+```
+npm install
+```
+
+There some different API sush as database key, cloudinary(image upload), jwt secret key and etc. You need to provide your own key in order the run the server and see the result. Keys are:
+
+```
+<!-- mongoDB uri needed -->
+DATABASE_URI
+<!-- Cloudinary api key and name -->
+CLOUD_NAME
+CLOUD_API_KEY
+CLOUD_API_SECRET
+<!-- JWT secret key wich you create your own string -->
+JWT_SECRET
+```
+
+Once you have all keys you can create .env file on the root directory and place all your keys in that file.
+
+You can run to run the server
+
+```
+npm run dev
 ```
 
 <br>
@@ -851,3 +911,5 @@ Link to [Lock Security](https://docs.google.com/spreadsheets/d/1Fw4zb-6sjoZg3VTr
 - Ahmet Erturk
 - Arturo Caceres
 - Mohammad Reza Fayazi
+
+---
