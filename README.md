@@ -26,7 +26,6 @@
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
 - [Trello](#trello)
-- [Installation](#installation)
 
 #### Part B
 
